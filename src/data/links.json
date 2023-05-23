@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Bari, Italia",
+        "icon": "icon-park-outline:city"
+    },
+    {
+        "name": "+39 338 16 32 668",
+        "icon": "mdi:whatsapp",
+        "url": "https://wa.me/393381632668"
+    },
+    {
+        "name": "andrea.dam90@gmail.com",
+        "icon": "ph:envelope-simple",
+        "url": "mailto:andrea.dam90@gmail.com"
+    },
+    {
+        "name": "Linkedin",
+        "icon": "mdi:linkedin",
+        "url": "https://www.linkedin.com/in/andrea-damiani-web-developer/"
+    },
+    {
+        "name": "andrea-dam",
+        "icon": "fa6-brands:gitlab",
+        "url": "https://gitlab.com/andrea-dam"
+    }
+]
