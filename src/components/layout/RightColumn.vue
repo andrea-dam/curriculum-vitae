@@ -1,18 +1,13 @@
 <template>
-    <main class="col-span-2 flex h-full flex-col justify-between gap-5 p-4">
-        <header class="flex justify-between">
-            <div class="flex flex-col gap-1">
-                <h1 class="text-5xl font-serif">Andrea Damiani</h1>
-                <h2 class="text-2xl font-serif">Full Stack Web Developer Junior</h2>
-            </div>
-            <img src="../../../assets/frame.png" class="w-24" alt="" />
-        </header>
+    <main class="col-span-2 flex h-full flex-col justify-between gap-5 p-4 border-l">
+        <!-- Header -->
+        <TheHeader />
 
         <!-- Profilo -->
         <ColumnSection>
             <HeadingThree>Profilo</HeadingThree>
 
-            <p class="text-sm   ">
+            <p class="text-sm">
                 Full Stack Web Developer con esperienza acquisita tramite il coding bootcamp Hackademy di Aulab. Attualmente sono impegnato
                 in un percorso di stage presso Gruppo Buffetti S.p.A. Sono una persona curiosa e creativa, con ottime capacità di
                 problem-solving. Mi piace mettermi alla prova con sfide ogni volta diverse e sono sempre alla ricerca di qualcosa di nuovo
@@ -57,7 +52,7 @@
         <ColumnSection>
             <HeadingThree>Esperienze Professionali</HeadingThree>
 
-            <ul class="text-sm flex flex-col gap-2">
+            <ul class="flex flex-col gap-2 text-sm">
                 <li>
                     <h4 class="font-bold">Aprile 2023 - Ottobre 2023, Gruppo Buffetti S.p.A. - Roma</h4>
                     <h5>Web Developer Junior - Stage</h5>
@@ -89,6 +84,7 @@
 </template>
 
 <script setup>
+import TheHeader from "../ui/TheHeader.vue";
 import ColumnSection from "../ui/ColumnSection.vue";
 import HeadingThree from "../ui/HeadingThree.vue";
 </script>

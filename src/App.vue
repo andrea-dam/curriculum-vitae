@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-auto grid h-[297mm] w-[210mm] grid-cols-3 border-r">
+    <div class="mx-auto grid h-[297mm] w-[210mm] grid-cols-3">
         <!-- Colonna Sinistra -->
         <LeftColumn />
 
