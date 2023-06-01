@@ -7,27 +7,27 @@
         <ColumnSection>
             <HeadingThree :icon="icons.linkIcon">Contatti</HeadingThree>
 
-            <ul class="flex flex-col gap-2">
+            <UnorderedList class="gap-2">
                 <li v-for="(link, index) in links" :key="index">
                     <a :href="link.url" class="text-md flex items-center gap-3"
                         ><Icon :icon="link.icon" class="text-lg" />{{ link.name }}</a
                     >
                 </li>
-            </ul>
+            </UnorderedList>
         </ColumnSection>
 
         <!-- Skills -->
         <ColumnSection class="h-full">
             <HeadingThree :icon="icons.codeIcon">Competenze</HeadingThree>
 
-            <ul class="flex h-full flex-col justify-between">
+            <UnorderedList class="h-full justify-between">
                 <ProgressBar
                     v-for="(skill, index) in skills"
                     :key="index"
                     :name="skill.name"
                     :icon="skill.icon"
                     :expertise="skill.expertise" />
-            </ul>
+            </UnorderedList>
         </ColumnSection>
 
         <!-- Inglese -->
@@ -43,6 +43,7 @@
 import ColumnSection from "../ui/ColumnSection.vue";
 import HeadingThree from "../ui/HeadingThree.vue";
 import ProgressBar from "../ui/ProgressBar.vue";
+import UnorderedList from "../ui/UnorderedList.vue";
 
 import links from "../../data/links.json";
 import skills from "../../data/skills.json";

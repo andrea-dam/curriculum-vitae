@@ -22,7 +22,7 @@
         <ColumnSection>
             <HeadingThree :icon="icons.bulbIcon">Formazione</HeadingThree>
 
-            <ul class="flex flex-col gap-1 text-sm">
+            <UnorderedList class="gap-1 text-sm">
                 <li class="">
                     <h4 class="font-semibold">Dicembre 2022 - Aulab S.r.l.</h4>
                     <div>Corso Full Stack Web Developer</div>
@@ -35,7 +35,7 @@
                     <div>Luglio 2008 - Liceo Scientifico "Arcangelo Scacchi"</div>
                     <div>Maturità indirizzo PNI</div>
                 </li>
-            </ul>
+            </UnorderedList>
         </ColumnSection>
 
         <ColumnSection>
@@ -52,7 +52,7 @@
         <ColumnSection>
             <HeadingThree>Esperienze Professionali</HeadingThree>
 
-            <ul class="flex flex-col gap-2 text-sm">
+            <UnorderedList class="gap-2 text-sm">
                 <li>
                     <h4 class="font-bold">Aprile 2023 - Ottobre 2023, Gruppo Buffetti S.p.A. - Roma</h4>
                     <h5>Web Developer Junior - Stage</h5>
@@ -71,7 +71,7 @@
                         Groove, band nota nel barese con i quali si arriva alla pubblicazione di un album nel 2017.
                     </h6>
                 </li>
-            </ul>
+            </UnorderedList>
         </ColumnSection>
 
         <!-- Privacy -->
@@ -89,6 +89,7 @@
 import TheHeader from "../ui/TheHeader.vue";
 import ColumnSection from "../ui/ColumnSection.vue";
 import HeadingThree from "../ui/HeadingThree.vue";
+import UnorderedList from "../ui/UnorderedList.vue";
 
 import icons from "../../data/icons.js";
 </script>
