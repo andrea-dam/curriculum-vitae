@@ -5,18 +5,20 @@
 
         <!-- Contatti -->
         <ColumnSection>
-            <HeadingThree>Contatti</HeadingThree>
+            <HeadingThree :icon="icons.linkIcon">Contatti</HeadingThree>
 
             <ul class="flex flex-col gap-2">
                 <li v-for="(link, index) in links" :key="index">
-                    <a :href="link.url" class="text-md flex items-center gap-3"><Icon :icon="link.icon" class="text-lg"/>{{ link.name }}</a>
+                    <a :href="link.url" class="text-md flex items-center gap-3"
+                        ><Icon :icon="link.icon" class="text-lg" />{{ link.name }}</a
+                    >
                 </li>
             </ul>
         </ColumnSection>
 
         <!-- Skills -->
         <ColumnSection class="h-full">
-            <HeadingThree>Competenze Tecniche</HeadingThree>
+            <HeadingThree :icon="icons.codeIcon">Competenze</HeadingThree>
 
             <ul class="flex h-full flex-col justify-between">
                 <ProgressBar
@@ -30,7 +32,7 @@
 
         <!-- Inglese -->
         <ColumnSection>
-            <HeadingThree>Lingue</HeadingThree>
+            <HeadingThree :icon="icons.chatConversationCircle">Lingue</HeadingThree>
 
             <span>Inglese: B2</span>
         </ColumnSection>
@@ -44,4 +46,6 @@ import ProgressBar from "../ui/ProgressBar.vue";
 
 import links from "../../data/links.json";
 import skills from "../../data/skills.json";
+
+import icons from "../../data/icons.js";
 </script>

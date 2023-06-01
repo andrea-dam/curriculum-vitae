@@ -1,11 +1,11 @@
 <template>
-    <main class="col-span-2 flex h-full flex-col justify-between gap-5 p-4 border-l">
+    <main class="col-span-2 flex h-full flex-col justify-between gap-5 border-l p-4">
         <!-- Header -->
         <TheHeader />
 
         <!-- Profilo -->
         <ColumnSection>
-            <HeadingThree>Profilo</HeadingThree>
+            <HeadingThree :icon="icons.user02">Profilo</HeadingThree>
 
             <p class="text-sm">
                 Full Stack Web Developer con esperienza acquisita tramite il coding bootcamp Hackademy di Aulab. Attualmente sono impegnato
@@ -20,7 +20,7 @@
 
         <!-- Formazione -->
         <ColumnSection>
-            <HeadingThree>Formazione</HeadingThree>
+            <HeadingThree :icon="icons.bulbIcon">Formazione</HeadingThree>
 
             <ul class="flex flex-col gap-1 text-sm">
                 <li class="">
@@ -39,7 +39,7 @@
         </ColumnSection>
 
         <ColumnSection>
-            <HeadingThree>Esperienza Formativa presso Aulab S.r.l.</HeadingThree>
+            <HeadingThree>Esperienza Formativa</HeadingThree>
 
             <p class="text-sm">
                 Formazione tramite il coding bootcamp Hacademy come sviluppatore web full stack, con lo studio e la pratica di tutte le
@@ -75,10 +75,12 @@
         </ColumnSection>
 
         <!-- Privacy -->
-        <p class="text-center text-xs italic">
-            Autorizzo il trattamento dei miei dati personali presenti nel CV ai sensi dell’art. 13 d. lgs. 30 giugno 2003 n. 196 - “Codice
-            in materia di protezione dei dati personali” e dell’art. 13 GDPR 679/16 - “Regolamento europeo sulla protezione dei dati
-            personali”
+        <p class="text-center text-xs">
+            <em>
+                Autorizzo il trattamento dei miei dati personali presenti nel CV ai sensi dell’art. 13 d. lgs. 30 giugno 2003 n. 196 -
+                “Codice in materia di protezione dei dati personali” e dell’art. 13 GDPR 679/16 - “Regolamento europeo sulla protezione dei
+                dati personali”
+            </em>
         </p>
     </main>
 </template>
@@ -87,4 +89,6 @@
 import TheHeader from "../ui/TheHeader.vue";
 import ColumnSection from "../ui/ColumnSection.vue";
 import HeadingThree from "../ui/HeadingThree.vue";
+
+import icons from "../../data/icons.js";
 </script>

@@ -1,3 +1,10 @@
 <template>
-    <h3 class="font-serif text-2xl"><slot /></h3>
+    <div class="flex items-center justify-between text-2xl">
+        <h3><slot /></h3>
+        <Icon :icon="icon"></Icon>
+    </div>
 </template>
+
+<script setup>
+defineProps(["icon"]);
+</script>
