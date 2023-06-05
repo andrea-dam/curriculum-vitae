@@ -1,5 +1,5 @@
 <template>
-    <main class="col-span-2 flex h-full flex-col justify-between gap-5 border-l p-4">
+    <main class="col-span-2 flex h-full flex-col justify-between border-l p-4">
         <!-- Header -->
         <TheHeader />
 
@@ -8,13 +8,13 @@
             <HeadingThree :icon="icons.user02">Profilo</HeadingThree>
 
             <p class="text-sm">
-                Full Stack Web Developer con esperienza acquisita tramite il coding bootcamp Hackademy di Aulab. Attualmente sono impegnato
-                in un percorso di stage presso Gruppo Buffetti S.p.A. Sono una persona curiosa e creativa, con ottime capacità di
-                problem-solving. Mi piace mettermi alla prova con sfide ogni volta diverse e sono sempre alla ricerca di qualcosa di nuovo
-                da imparare. La mia precedente attività da musicista e produttore mi ha consentito di acquisire soft-skills come il rispetto
-                delle scadenze e il lavoro in team. Inoltre, la mia esperienza come insegnante di pianoforte mi ha fornito tutti gli
-                strumenti per poter instaurare relazioni positive con gli altri e di potermi contraddistinguere come figura di supporto a
-                cui rivolgersi in caso di necessità.
+                Full Stack Web Developer con esperienza acquisita tramite il coding bootcamp Hackademy di <strong>Aulab</strong>.
+                Attualmente sono impegnato in un percorso di stage presso <strong>Gruppo Buffetti S.p.A.</strong> Sono una persona curiosa e
+                creativa, con ottime capacità di problem-solving. Mi piace mettermi alla prova con sfide ogni volta diverse e sono sempre
+                alla ricerca di qualcosa di nuovo da imparare. La mia precedente attività da musicista e produttore mi ha consentito di
+                acquisire soft-skills come il rispetto delle scadenze e il lavoro in team. Inoltre, la mia esperienza come insegnante di
+                pianoforte mi ha fornito tutti gli strumenti per poter instaurare relazioni positive con gli altri e di potermi
+                contraddistinguere come figura di supporto a cui rivolgersi in caso di necessità.
             </p>
         </ColumnSection>
 

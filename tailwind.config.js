@@ -4,6 +4,7 @@ module.exports = {
     theme: {
         fontFamily: {
             serif: ["Montserrat, sans-serif"],
+            sans: ["Geologica, sans-serif"],
         },
         extend: {},
     },
