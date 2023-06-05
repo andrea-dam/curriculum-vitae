@@ -20,26 +20,26 @@
 
         <!-- Formazione -->
         <ColumnSection>
-            <HeadingThree :icon="icons.bulbIcon">Formazione</HeadingThree>
+            <HeadingThree :icon="icons.bookOpen">Formazione</HeadingThree>
 
-            <UnorderedList class="gap-1 text-sm">
-                <li class="">
-                    <h4 class="font-semibold">Dicembre 2022 - Aulab S.r.l.</h4>
+            <UnorderedList class="gap-2 text-sm">
+                <li>
+                    <h4><strong>Dicembre 2022 - Aulab S.r.l.</strong></h4>
                     <div>Corso Full Stack Web Developer</div>
                 </li>
                 <li>
-                    <div>Luglio 2018 - Conservatorio di Musica "Nino Rota"</div>
+                    <div><strong>Luglio 2018 - Conservatorio di Musica "Nino Rota"</strong></div>
                     <div>Diploma di I Livello in Pianoforte Jazz</div>
                 </li>
                 <li>
-                    <div>Luglio 2008 - Liceo Scientifico "Arcangelo Scacchi"</div>
+                    <div><strong>Luglio 2008 - Liceo Scientifico "Arcangelo Scacchi"</strong></div>
                     <div>Maturità indirizzo PNI</div>
                 </li>
             </UnorderedList>
         </ColumnSection>
 
         <ColumnSection>
-            <HeadingThree>Esperienza Formativa</HeadingThree>
+            <HeadingThree :icon="icons.bulbIcon">Esperienza Formativa</HeadingThree>
 
             <p class="text-sm">
                 Formazione tramite il coding bootcamp Hacademy come sviluppatore web full stack, con lo studio e la pratica di tutte le
@@ -50,28 +50,19 @@
         </ColumnSection>
 
         <ColumnSection>
-            <HeadingThree>Esperienze Professionali</HeadingThree>
+            <HeadingThree :icon="icons.desktopIcon">Esperienze Professionali</HeadingThree>
 
-            <UnorderedList class="gap-2 text-sm">
-                <li>
-                    <h4 class="font-bold">Aprile 2023 - Ottobre 2023, Gruppo Buffetti S.p.A. - Roma</h4>
-                    <h5>Web Developer Junior - Stage</h5>
-                    <h6>Lavoro di aggiunta e modifica contenuti su applicativi Web ed eCommerce.</h6>
-                </li>
-                <li>
-                    <h4 class="font-bold">2013 - 2015, Groove Up - Bari, School of Rock - Monopoli</h4>
-                    <h5>Insegnante di Pianoforte e Teoria Musicale</h5>
-                    <h6>Attività come insegnante di pianoforte e teoria musicale.</h6>
-                </li>
-                <li>
-                    <h4 class="font-bold">2012 - 2020</h4>
-                    <h5>Musicista</h5>
-                    <h6>
-                        Attività come tastierista in diversi contesti musicali fra le quali spicca la collaborazione con gli Stip’ ca
-                        Groove, band nota nel barese con i quali si arriva alla pubblicazione di un album nel 2017.
-                    </h6>
-                </li>
-            </UnorderedList>
+            <div class="flex flex-col gap-2 text-sm">
+                <div>
+                    <h4>Aprile 2023 - Ottobre 2023, Gruppo Buffetti S.p.A. - Roma</h4>
+                    <h5><strong>Web Developer Junior - Stage</strong></h5>
+                </div>
+                <div>
+                    <p>Lavoro di aggiunta e modifica contenuti su applicativi Web ed eCommerce sviluppati con Magento.</p>
+                    <p>Lavoro su contenuti gestiti da Clerk su piattaforma eCommerce di Cartiere Pigna S.p.A.</p>
+                    <p>Partecipazione e contributo ai meeting di Project Management.</p>
+                </div>
+            </div>
         </ColumnSection>
 
         <!-- Privacy -->
@@ -93,3 +84,9 @@ import UnorderedList from "../ui/UnorderedList.vue";
 
 import icons from "../../data/icons.js";
 </script>
+
+<style>
+strong {
+    @apply font-medium;
+}
+</style>

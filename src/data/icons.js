@@ -3,7 +3,9 @@ import linkIcon from "@iconify-icons/ci/link";
 import codeIcon from "@iconify-icons/ci/code";
 import chatConversationCircle from "@iconify-icons/ci/chat-conversation-circle";
 import bulbIcon from "@iconify-icons/ci/bulb";
+import bookOpen from "@iconify-icons/ci/book-open";
+import desktopIcon from "@iconify-icons/ci/desktop";
 
-const icons = { user02, linkIcon, codeIcon, chatConversationCircle, bulbIcon };
+const icons = { user02, linkIcon, codeIcon, chatConversationCircle, bulbIcon, bookOpen, desktopIcon };
 
 export default icons;
