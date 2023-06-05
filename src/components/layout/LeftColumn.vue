@@ -9,9 +9,9 @@
 
             <UnorderedList class="gap-2">
                 <li v-for="(link, index) in links" :key="index">
-                    <a :href="link.url" class="text-md flex items-center gap-3"
-                        ><Icon :icon="link.icon" class="text-lg" />{{ link.name }}</a
-                    >
+                    <a :href="link.url" class="text-md flex items-center justify-between gap-3"
+                        >{{ link.name }}<Icon :icon="link.icon" class="text-lg"
+                    /></a>
                 </li>
             </UnorderedList>
         </ColumnSection>
@@ -34,7 +34,7 @@
         <ColumnSection>
             <HeadingThree :icon="icons.chatConversationCircle">Lingue</HeadingThree>
 
-            <span>Inglese: B2</span>
+            <span>Inglese: Livello B2</span>
         </ColumnSection>
     </aside>
 </template>

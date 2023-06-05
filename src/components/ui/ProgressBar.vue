@@ -1,10 +1,10 @@
 <template>
     <li>
         <div class="mb-2 flex items-end justify-between">
+            <h4 class="text-lg">{{ name }}</h4>
             <div class="flex w-9 justify-center">
                 <Icon :icon="icon" class="text-2xl drop-shadow-sm dark:drop-shadow-none" />
             </div>
-            <h4 class="text-lg">{{ name }}</h4>
         </div>
         <div class="h-2 rounded-full bg-gray-200 shadow-inner">
             <div :style="progressBar(expertise)" class="h-full rounded-full bg-[#a6d0c7] transition-colors duration-300" />
