@@ -5,7 +5,8 @@ import chatConversationCircle from "@iconify-icons/ci/chat-conversation-circle";
 import bulbIcon from "@iconify-icons/ci/bulb";
 import bookOpen from "@iconify-icons/ci/book-open";
 import desktopIcon from "@iconify-icons/ci/desktop";
+import notebookIcon from "@iconify-icons/ci/notebook";
 
-const icons = { user02, linkIcon, codeIcon, chatConversationCircle, bulbIcon, bookOpen, desktopIcon };
+const icons = { user02, linkIcon, codeIcon, chatConversationCircle, bulbIcon, bookOpen, desktopIcon, notebookIcon };
 
 export default icons;

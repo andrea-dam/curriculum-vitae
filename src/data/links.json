@@ -1,6 +1,6 @@
 [
     {
-        "name": "Bari, Italia",
+        "name": "Roma, Italia",
         "icon": "icon-park-outline:city"
     },
     {
@@ -14,7 +14,12 @@
         "url": "mailto:andrea.dam90@gmail.com"
     },
     {
-        "name": "andrea-damiani-web-developer",
+        "name": "Portfolio",
+        "icon": "ci:notebook",
+        "url": "https://andrea-dam.gitlab.io/"
+    },
+    {
+        "name": "Linkedin",
         "icon": "mdi:linkedin",
         "url": "https://www.linkedin.com/in/andrea-damiani-web-developer/"
     },

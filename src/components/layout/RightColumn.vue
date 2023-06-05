@@ -8,13 +8,13 @@
             <HeadingThree :icon="icons.user02">Profilo</HeadingThree>
 
             <p class="text-sm">
-                Full Stack Web Developer con esperienza acquisita tramite il coding bootcamp Hackademy di <strong>Aulab</strong>.
+                Full Stack Web Developer con esperienza acquisita tramite il <em>coding bootcamp</em> Hackademy di <strong>Aulab</strong>.
                 Attualmente sono impegnato in un percorso di stage presso <strong>Gruppo Buffetti S.p.A.</strong> Sono una persona curiosa e
-                creativa, con ottime capacità di problem-solving. Mi piace mettermi alla prova con sfide ogni volta diverse e sono sempre
-                alla ricerca di qualcosa di nuovo da imparare. La mia precedente attività da musicista e produttore mi ha consentito di
-                acquisire soft-skills come il rispetto delle scadenze e il lavoro in team. Inoltre, la mia esperienza come insegnante di
-                pianoforte mi ha fornito tutti gli strumenti per poter instaurare relazioni positive con gli altri e di potermi
-                contraddistinguere come figura di supporto a cui rivolgersi in caso di necessità.
+                creativa, con ottime capacità di <em>problem-solving</em>. Mi piace mettermi alla prova con sfide ogni volta diverse e sono
+                sempre alla ricerca di qualcosa di nuovo da imparare. La mia precedente attività da musicista e produttore mi ha consentito
+                di acquisire <em>soft-skills</em> come il rispetto delle scadenze e il lavoro in team. Inoltre, la mia esperienza come
+                insegnante di pianoforte mi ha fornito tutti gli strumenti per poter instaurare relazioni positive con gli altri e di
+                potermi contraddistinguere come figura di supporto a cui rivolgersi in caso di necessità.
             </p>
         </ColumnSection>
 
@@ -25,15 +25,15 @@
             <UnorderedList class="gap-2 text-sm">
                 <li>
                     <h4><strong>Dicembre 2022 - Aulab S.r.l.</strong></h4>
-                    <div>Corso Full Stack Web Developer</div>
+                    <span>Corso Full Stack Web Developer</span>
                 </li>
                 <li>
-                    <div><strong>Luglio 2018 - Conservatorio di Musica "Nino Rota"</strong></div>
-                    <div>Diploma di I Livello in Pianoforte Jazz</div>
+                    <h4><strong>Luglio 2018 - Conservatorio di Musica "Nino Rota"</strong></h4>
+                    <span>Diploma di I Livello in Pianoforte Jazz</span>
                 </li>
                 <li>
-                    <div><strong>Luglio 2008 - Liceo Scientifico "Arcangelo Scacchi"</strong></div>
-                    <div>Maturità indirizzo PNI</div>
+                    <h4><strong>Luglio 2008 - Liceo Scientifico "Arcangelo Scacchi"</strong></h4>
+                    <span>Maturità indirizzo PNI</span>
                 </li>
             </UnorderedList>
         </ColumnSection>
@@ -84,9 +84,3 @@ import UnorderedList from "../ui/UnorderedList.vue";
 
 import icons from "../../data/icons.js";
 </script>
-
-<style>
-strong {
-    @apply font-medium;
-}
-</style>
