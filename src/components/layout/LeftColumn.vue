@@ -1,13 +1,13 @@
 <template>
-    <aside class="col-span-1 flex flex-col justify-between gap-7 p-5 text-sm leading-4">
+    <aside class="col-span-1 flex flex-col justify-between gap-6 p-4 text-sm">
         <!-- Immagine -->
-        <img src="../../../assets/2020-02-18_21-16-38_271.webp" class="rounded-full shadow-lg" alt="" />
+        <img src="/assets/2020-02-18_21-16-38_271.webp" class="rounded-full shadow-lg" alt="" />
 
         <!-- Contatti -->
         <ColumnSection>
             <HeadingThree :icon="icons.linkIcon">Contatti</HeadingThree>
 
-            <UnorderedList class="ms-0.5 gap-2.5">
+            <UnorderedList class="ms-0.5 gap-2">
                 <li v-for="(link, index) in links" :key="index">
                     <a :href="link.url" class="text-md flex items-center gap-3 hover:underline" target="_blank"
                         ><Icon :icon="link.icon" class="text-lg" />{{ link.name }}</a
