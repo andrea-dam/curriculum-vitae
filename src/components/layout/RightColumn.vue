@@ -24,16 +24,16 @@
 
             <UnorderedList class="gap-2 text-sm">
                 <li>
-                    <h4><strong>Dicembre 2022 - Aulab S.r.l.</strong></h4>
-                    <span>Corso Full Stack Web Developer</span>
+                    <h4>Dicembre 2022 - Aulab S.r.l.</h4>
+                    <span><strong class="font-semibold">Corso Full Stack Web Developer</strong></span>
                 </li>
                 <li>
-                    <h4><strong>Luglio 2018 - Conservatorio di Musica "Nino Rota"</strong></h4>
-                    <span>Diploma di I Livello in Pianoforte Jazz</span>
+                    <h4>Luglio 2018 - Conservatorio di Musica "Nino Rota"</h4>
+                    <span><strong class="font-semibold">Diploma di I Livello in Pianoforte Jazz</strong></span>
                 </li>
                 <li>
-                    <h4><strong>Luglio 2008 - Liceo Scientifico "Arcangelo Scacchi"</strong></h4>
-                    <span>Maturità indirizzo PNI</span>
+                    <h4>Luglio 2008 - Liceo Scientifico "Arcangelo Scacchi"</h4>
+                    <span><strong class="font-semibold">Maturità indirizzo PNI</strong></span>
                 </li>
             </UnorderedList>
         </ColumnSection>
@@ -52,7 +52,7 @@
         <ColumnSection>
             <HeadingThree :icon="icons.desktopIcon">Esperienze Professionali</HeadingThree>
 
-            <div class="flex flex-col gap-2 text-sm">
+            <div class="flex flex-col gap-3 text-sm">
                 <div>
                     <h4>Aprile 2023 - Ottobre 2023, Gruppo Buffetti S.p.A. - Roma</h4>
                     <h5><strong>Web Developer Junior - Stage</strong></h5>
@@ -66,7 +66,7 @@
         </ColumnSection>
 
         <!-- Privacy -->
-        <p class="text-center text-xs">
+        <p class="mt-5 text-center text-xs">
             <em>
                 Autorizzo il trattamento dei miei dati personali presenti nel CV ai sensi dell’art. 13 d. lgs. 30 giugno 2003 n. 196 -
                 “Codice in materia di protezione dei dati personali” e dell’art. 13 GDPR 679/16 - “Regolamento europeo sulla protezione dei

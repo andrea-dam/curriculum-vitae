@@ -1,3 +1,3 @@
 <template>
-    <section class="flex flex-col gap-3"><slot /></section>
+    <section class="flex flex-col gap-2.5"><slot /></section>
 </template>

@@ -7,9 +7,9 @@
         <ColumnSection>
             <HeadingThree :icon="icons.linkIcon">Contatti</HeadingThree>
 
-            <UnorderedList class="ms-0.5 gap-2">
+            <UnorderedList class="ms-0.5 gap-2.5">
                 <li v-for="(link, index) in links" :key="index">
-                    <a :href="link.url" class="text-md flex items-center gap-3" target="_blank"
+                    <a :href="link.url" class="text-md flex items-center gap-3 hover:underline" target="_blank"
                         ><Icon :icon="link.icon" class="text-lg" />{{ link.name }}</a
                     >
                 </li>
