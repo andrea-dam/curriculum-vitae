@@ -38,6 +38,7 @@
             </UnorderedList>
         </ColumnSection>
 
+        <!-- Esperienza Formativa -->
         <ColumnSection>
             <HeadingThree :icon="icons.bulbIcon">Esperienza Formativa</HeadingThree>
 
