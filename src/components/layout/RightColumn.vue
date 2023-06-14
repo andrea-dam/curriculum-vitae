@@ -82,9 +82,6 @@
 
 <script setup>
 import TheHeader from "../ui/TheHeader.vue";
-import ColumnSection from "../ui/ColumnSection.vue";
-import HeadingThree from "../ui/HeadingThree.vue";
-import UnorderedList from "../ui/UnorderedList.vue";
 
 import icons from "../../data/icons.js";
 </script>

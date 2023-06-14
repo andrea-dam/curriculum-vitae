@@ -8,5 +8,5 @@
 </template>
 
 <script setup>
-defineProps({ icon: String });
+defineProps({ icon: Object });
 </script>

@@ -40,10 +40,7 @@
 </template>
 
 <script setup>
-import ColumnSection from "../ui/ColumnSection.vue";
-import HeadingThree from "../ui/HeadingThree.vue";
 import ProgressBar from "../ui/ProgressBar.vue";
-import UnorderedList from "../ui/UnorderedList.vue";
 
 import links from "../../data/links.json";
 import skills from "../../data/skills.json";
