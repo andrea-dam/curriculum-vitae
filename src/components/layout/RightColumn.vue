@@ -1,5 +1,5 @@
 <template>
-    <main class="col-span-2 flex h-full flex-col justify-between border-l p-4">
+    <main class="col-span-2 flex flex-col justify-between border-l p-4 text-sm">
         <!-- Header -->
         <TheHeader />
 
@@ -7,7 +7,7 @@
         <ColumnSection>
             <HeadingThree :icon="icons.user02">Profilo</HeadingThree>
 
-            <p class="text-justify text-sm">
+            <p class="text-justify">
                 Full Stack Web Developer con esperienza acquisita tramite il <em>coding bootcamp</em> Hackademy di <strong>Aulab</strong>.
                 Attualmente sono impegnato in un percorso di stage presso <strong>Gruppo Buffetti S.p.A.</strong> Sono una persona curiosa e
                 creativa, con ottime capacità di <em>problem-solving</em>. Mi piace mettermi alla prova con sfide ogni volta diverse e sono
@@ -22,7 +22,7 @@
         <ColumnSection>
             <HeadingThree :icon="icons.bookOpen">Formazione</HeadingThree>
 
-            <UnorderedList class="gap-2 text-sm">
+            <UnorderedList class="gap-2">
                 <li>
                     <h4>Dicembre 2022 - Aulab S.r.l. - Bari</h4>
                     <span><strong class="font-semibold">Corso Full Stack Web Developer</strong></span>
@@ -42,7 +42,7 @@
         <ColumnSection>
             <HeadingThree :icon="icons.bulbIcon">Esperienza Formativa</HeadingThree>
 
-            <p class="text-justify text-sm">
+            <p class="text-justify">
                 Formazione tramite il coding bootcamp Hacademy come sviluppatore web full stack, con lo studio e la pratica di tutte le
                 tecnologie ed i linguaggi necessari ad intraprendere una carriera in questo settore, come l’HTML, il CSS, Javascript, PHP e
                 il framework Laravel, così come lo studio e l’applicazione delle metodologie Agili tramite lavoro su progetti in coppia e in
@@ -50,10 +50,11 @@
             </p>
         </ColumnSection>
 
+        <!-- Esperienze Professionali -->
         <ColumnSection>
             <HeadingThree :icon="icons.desktopIcon">Esperienze Professionali</HeadingThree>
 
-            <div class="flex flex-col gap-3 text-sm">
+            <div class="flex flex-col gap-3">
                 <div>
                     <h4>Aprile 2023 - Ottobre 2023, Gruppo Buffetti S.p.A. - Roma</h4>
                     <h5><strong>Web Developer Junior - Stage</strong></h5>
@@ -70,13 +71,13 @@
         </ColumnSection>
 
         <!-- Privacy -->
-        <p class="mt-5 text-center text-xs">
+        <footer class="mt-5 text-center text-xs">
             <em>
                 Autorizzo il trattamento dei miei dati personali presenti nel CV ai sensi dell’art. 13 d. lgs. 30 giugno 2003 n. 196 -
                 “Codice in materia di protezione dei dati personali” e dell’art. 13 GDPR 679/16 - “Regolamento europeo sulla protezione dei
                 dati personali”
             </em>
-        </p>
+        </footer>
     </main>
 </template>
 
