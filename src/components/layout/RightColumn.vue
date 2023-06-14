@@ -7,7 +7,7 @@
         <ColumnSection>
             <HeadingThree :icon="icons.user02">Profilo</HeadingThree>
 
-            <p class="text-sm">
+            <p class="text-justify text-sm">
                 Full Stack Web Developer con esperienza acquisita tramite il <em>coding bootcamp</em> Hackademy di <strong>Aulab</strong>.
                 Attualmente sono impegnato in un percorso di stage presso <strong>Gruppo Buffetti S.p.A.</strong> Sono una persona curiosa e
                 creativa, con ottime capacità di <em>problem-solving</em>. Mi piace mettermi alla prova con sfide ogni volta diverse e sono
@@ -24,15 +24,15 @@
 
             <UnorderedList class="gap-2 text-sm">
                 <li>
-                    <h4>Dicembre 2022 - Aulab S.r.l.</h4>
+                    <h4>Dicembre 2022 - Aulab S.r.l. - Bari</h4>
                     <span><strong class="font-semibold">Corso Full Stack Web Developer</strong></span>
                 </li>
                 <li>
-                    <h4>Luglio 2018 - Conservatorio di Musica "Nino Rota"</h4>
+                    <h4>Luglio 2018 - Conservatorio di Musica "Nino Rota" - Monopoli</h4>
                     <span><strong class="font-semibold">Diploma di I Livello in Pianoforte Jazz</strong></span>
                 </li>
                 <li>
-                    <h4>Luglio 2008 - Liceo Scientifico "Arcangelo Scacchi"</h4>
+                    <h4>Luglio 2008 - Liceo Scientifico "Arcangelo Scacchi" - Bari</h4>
                     <span><strong class="font-semibold">Maturità indirizzo PNI</strong></span>
                 </li>
             </UnorderedList>
@@ -42,7 +42,7 @@
         <ColumnSection>
             <HeadingThree :icon="icons.bulbIcon">Esperienza Formativa</HeadingThree>
 
-            <p class="text-sm">
+            <p class="text-justify text-sm">
                 Formazione tramite il coding bootcamp Hacademy come sviluppatore web full stack, con lo studio e la pratica di tutte le
                 tecnologie ed i linguaggi necessari ad intraprendere una carriera in questo settore, come l’HTML, il CSS, Javascript, PHP e
                 il framework Laravel, così come lo studio e l’applicazione delle metodologie Agili tramite lavoro su progetti in coppia e in
@@ -59,9 +59,12 @@
                     <h5><strong>Web Developer Junior - Stage</strong></h5>
                 </div>
                 <div>
-                    <p>Lavoro di aggiunta e modifica contenuti su applicativi Web ed eCommerce sviluppati con Magento.</p>
-                    <p>Lavoro su contenuti gestiti da Clerk su piattaforma eCommerce di Cartiere Pigna S.p.A.</p>
-                    <p>Partecipazione e contributo ai meeting di Project Management.</p>
+                    <p class="text-justify">
+                        Lavoro di aggiunta e modifica contenuti su applicativi Web ed eCommerce sviluppati con Magento. Lavoro su contenuti
+                        gestiti da Clerk su piattaforma eCommerce di Cartiere Pigna S.p.A. Partecipazione e contributo ai meeting di Project
+                        Management. Risoluzione errori di invio ordini su piattaforme B2B e B2C da Magento a JDE. Pubblicazione file di
+                        fatturazione su piattaforma ad uso affiliati.
+                    </p>
                 </div>
             </div>
         </ColumnSection>
