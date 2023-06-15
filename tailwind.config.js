@@ -6,7 +6,13 @@ module.exports = {
             serif: ["Montserrat, sans-serif"],
             sans: ["Geologica, sans-serif"],
         },
-        extend: {},
+        extend: {
+            colors: {
+                text: "#444850",
+                background: "#ebeedd",
+                accent: "#354568",
+            },
+        },
     },
     plugins: [],
 };
