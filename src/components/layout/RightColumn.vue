@@ -1,5 +1,5 @@
 <template>
-    <main class="col-span-2 flex flex-col justify-between border-l p-4 text-sm">
+    <main class="col-span-2 flex flex-col justify-between p-4 text-sm">
         <!-- Header -->
         <TheHeader />
 
