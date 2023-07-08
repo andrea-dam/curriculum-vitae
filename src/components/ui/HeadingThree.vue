@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center gap-2.5 font-serif text-2xl font-medium text-accent">
+    <div class="flex items-center gap-2.5 font-serif text-2xl font-medium text-primary">
         <div class="flex w-6 justify-center">
             <Icon :icon="icon" class=""></Icon>
         </div>

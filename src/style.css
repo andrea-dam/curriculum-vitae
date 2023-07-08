@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 strong {
-    @apply text-accent;
+    @apply text-primary;
 }

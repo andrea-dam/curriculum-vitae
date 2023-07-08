@@ -1,5 +1,5 @@
 <template>
-    <aside class="col-span-1 flex flex-col justify-between gap-6 bg-background p-4 text-sm shadow-inner">
+    <aside class="col-span-1 flex flex-col justify-between gap-6 bg-secondary p-4 text-sm shadow-inner">
         <!-- Immagine -->
         <img src="/assets/2020-02-18_21-16-38_271.webp" class="rounded-full shadow-lg" alt="" />
 
