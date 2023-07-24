@@ -57,14 +57,19 @@
             <div class="flex flex-col gap-3">
                 <div>
                     <h4>Aprile 2023 - Ottobre 2023, Gruppo Buffetti S.p.A. - Roma</h4>
-                    <h5><strong>Web Developer Junior - Stage</strong></h5>
+                    <h5><strong>Full Stack Web Developer Junior - Stage</strong></h5>
                 </div>
                 <div>
                     <p class="text-justify">
                         Lavoro di aggiunta e modifica contenuti su applicativi Web ed eCommerce sviluppati con Magento. Lavoro su contenuti
-                        gestiti da Clerk su piattaforma eCommerce di Cartiere Pigna S.p.A. Partecipazione e contributo ai meeting di Project
-                        Management. Risoluzione errori di invio ordini su piattaforme B2B e B2C da Magento a JDE. Pubblicazione file di
-                        fatturazione su piattaforma ad uso affiliati.
+                        gestiti da Clerk su piattaforma eCommerce di Cartiere Pigna S.p.A. (<a
+                            href="https://shop.pigna.it"
+                            target="_blank"
+                            class="underline"
+                            >shop.pigna.it</a
+                        >). Partecipazione e contributo ai meeting di Project Management. Risoluzione errori di invio ordini su piattaforme
+                        B2B e B2C da Magento a JDE. Pubblicazione file di fatturazione su piattaforma ad uso affiliati. Refactoring Frontend
+                        Web del software di recupero crediti "Credit Management System".
                     </p>
                 </div>
             </div>

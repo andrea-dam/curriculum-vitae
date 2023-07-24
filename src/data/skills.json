@@ -42,6 +42,6 @@
     {
         "name": "SQL",
         "icon": "vscode-icons:file-type-sql",
-        "expertise": 3
+        "expertise": 4
     }
 ]
