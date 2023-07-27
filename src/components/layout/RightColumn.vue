@@ -61,15 +61,19 @@
                 </div>
                 <div>
                     <p class="text-justify">
-                        Lavoro di aggiunta e modifica contenuti su applicativi Web ed eCommerce sviluppati con Magento. Lavoro su contenuti
-                        gestiti da Clerk su piattaforma eCommerce di Cartiere Pigna S.p.A. (<a
+                        Refactoring Frontend Web del software di recupero crediti "Credit Management System". Lavoro di aggiunta e modifica
+                        contenuti su applicativi Web sviluppati con Magento e Wordpress (<a
+                            href="https://buffetti.it"
+                            target="_blank"
+                            class="underline"
+                            >buffetti.it</a
+                        >). Lavoro su contenuti gestiti da Clerk su piattaforma eCommerce di Cartiere Pigna S.p.A. (<a
                             href="https://shop.pigna.it"
                             target="_blank"
                             class="underline"
                             >shop.pigna.it</a
                         >). Partecipazione e contributo ai meeting di Project Management. Risoluzione errori di invio ordini su piattaforme
-                        B2B e B2C da Magento a JDE. Pubblicazione file di fatturazione su piattaforma ad uso affiliati. Refactoring Frontend
-                        Web del software di recupero crediti "Credit Management System".
+                        B2B e B2C da Magento a JDE. Pubblicazione file di fatturazione su piattaforma ad uso affiliati.
                     </p>
                 </div>
             </div>
