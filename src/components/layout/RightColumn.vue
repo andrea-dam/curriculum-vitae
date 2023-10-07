@@ -1,5 +1,5 @@
 <template>
-    <main class="col-span-2 flex flex-col justify-between p-4 text-sm">
+    <main class="flex flex-col justify-between p-4">
         <!-- Header -->
         <TheHeader />
 
@@ -56,26 +56,35 @@
 
             <div class="flex flex-col gap-3">
                 <div>
-                    <h4>Aprile 2023 - Ottobre 2023, Gruppo Buffetti S.p.A. - Roma</h4>
-                    <h5><strong>Full Stack Web Developer Junior - Stage</strong></h5>
+                    <h4>Ottobre 2023 - Presente, Gruppo Buffetti S.p.A. - Roma</h4>
+                    <h5><strong>Sviluppatore Web Junior</strong></h5>
                 </div>
+
                 <div>
-                    <p class="text-justify">
-                        Refactoring Frontend Web del software di recupero crediti "Credit Management System". Lavoro di aggiunta e modifica
-                        contenuti su applicativi Web sviluppati con Magento e Wordpress (<a
+                    <h4>Aprile 2023 - Settembre 2023, Gruppo Buffetti S.p.A. - Roma</h4>
+                    <h5><strong>Sviluppatore Web Junior - Stage</strong></h5>
+                </div>
+
+                <UnorderedList class="list-disc gap-1 pl-5 text-justify">
+                    <li>Refactoring Frontend Web del software di recupero crediti "Credit Management System".</li>
+                    <li>
+                        Lavoro di aggiunta e modifica contenuti su applicativi Web sviluppati con Magento, Wordpress e Joomla (<a
                             href="https://buffetti.it"
                             target="_blank"
                             class="underline"
                             >buffetti.it</a
-                        >). Lavoro su contenuti gestiti da Clerk su piattaforma eCommerce di Cartiere Pigna S.p.A. (<a
+                        >, <a href="https://shop.buffetti.it" target="_blank" class="underline">shop.buffetti.it</a>) .
+                    </li>
+                    <li>
+                        Lavoro su contenuti gestiti da Clerk su piattaforma eCommerce di Cartiere Pigna S.p.A. (<a
                             href="https://shop.pigna.it"
                             target="_blank"
                             class="underline"
                             >shop.pigna.it</a
-                        >). Partecipazione e contributo ai meeting di Project Management. Risoluzione errori di invio ordini su piattaforme
-                        B2B e B2C da Magento a JDE. Pubblicazione file di fatturazione su piattaforma ad uso affiliati.
-                    </p>
-                </div>
+                        >).
+                    </li>
+                    <li>Partecipazione e contributo ai meeting di Project Management.</li>
+                </UnorderedList>
             </div>
         </ColumnSection>
 

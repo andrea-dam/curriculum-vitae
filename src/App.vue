@@ -1,10 +1,10 @@
 <template>
-    <div class="bg-white mx-auto grid h-[297mm] w-[210mm] grid-cols-3 text-text shadow-2xl">
+    <div class="mx-auto grid h-[297mm] w-[210mm] select-none grid-cols-3 text-sm text-text shadow-2xl">
         <!-- Colonna Sinistra -->
         <LeftColumn />
 
         <!-- Colonna Destra -->
-        <RightColumn />
+        <RightColumn class="col-span-2" />
     </div>
 </template>
 
