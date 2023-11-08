@@ -1,47 +1,42 @@
 [
     {
         "name": "HTML",
-        "icon": "vscode-icons:file-type-html",
-        "expertise": 8.5
+        "icon": "vscode-icons:file-type-html"
     },
     {
         "name": "CSS",
-        "icon": "vscode-icons:file-type-css",
-        "expertise": 7.5
+        "icon": "vscode-icons:file-type-css"
     },
     {
         "name": "Bootstrap",
-        "icon": "logos:bootstrap",
-        "expertise": 7
+        "icon": "logos:bootstrap"
     },
     {
         "name": "Tailwind CSS",
-        "icon": "vscode-icons:file-type-tailwind",
-        "expertise": 8.5
+        "icon": "vscode-icons:file-type-tailwind"
     },
     {
-        "name": "Javascript",
-        "icon": "logos:javascript",
-        "expertise": 8
+        "name": "JavaScript",
+        "icon": "logos:javascript"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "devicon:typescript"
     },
     {
         "name": "Vue.js",
-        "icon": "vscode-icons:file-type-vue",
-        "expertise": 8
+        "icon": "vscode-icons:file-type-vue"
     },
     {
         "name": "PHP",
-        "icon": "vscode-icons:file-type-php3",
-        "expertise": 5
+        "icon": "vscode-icons:file-type-php3"
     },
     {
         "name": "Laravel",
-        "icon": "logos:laravel",
-        "expertise": 5.5
+        "icon": "logos:laravel"
     },
     {
         "name": "SQL",
-        "icon": "vscode-icons:file-type-sql",
-        "expertise": 6
+        "icon": "vscode-icons:file-type-sql"
     }
 ]

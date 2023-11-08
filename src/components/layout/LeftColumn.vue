@@ -9,9 +9,10 @@
 
             <UnorderedList class="ms-0.5 gap-2">
                 <li v-for="(link, index) in links" :key="index">
-                    <a :href="link.url" class="text-md flex items-center gap-3 hover:underline" target="_blank"
-                        ><Icon :icon="link.icon" class="text-lg" />{{ link.name }}</a
-                    >
+                    <a :href="link.url" class="text-md flex items-center gap-3 hover:underline" target="_blank">
+                        <Icon :icon="link.icon" class="text-lg" />
+                        {{ link.name }}
+                    </a>
                 </li>
             </UnorderedList>
         </ColumnSection>
@@ -20,13 +21,8 @@
         <ColumnSection class="h-full">
             <HeadingThree :icon="icons.codeIcon">Competenze</HeadingThree>
 
-            <UnorderedList class="h-full justify-between">
-                <ProgressBar
-                    v-for="(skill, index) in skills"
-                    :key="index"
-                    :name="skill.name"
-                    :icon="skill.icon"
-                    :expertise="skill.expertise" />
+            <UnorderedList class="divide-y divide-accent h-full">
+                <ProgressBar v-for="(skill, index) in skills" :key="index" class="col-span-1" :name="skill.name" :icon="skill.icon" />
             </UnorderedList>
         </ColumnSection>
 

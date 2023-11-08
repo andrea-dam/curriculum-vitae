@@ -59,12 +59,6 @@
                     <h4>Ottobre 2023 - Presente, Gruppo Buffetti S.p.A. - Roma</h4>
                     <h5><strong>Sviluppatore Web Junior</strong></h5>
                 </div>
-
-                <div>
-                    <h4>Aprile 2023 - Settembre 2023, Gruppo Buffetti S.p.A. - Roma</h4>
-                    <h5><strong>Sviluppatore Web Junior - Stage</strong></h5>
-                </div>
-
                 <UnorderedList class="list-disc gap-1 pl-5 text-justify">
                     <li>Refactoring Frontend Web del software di recupero crediti "Credit Management System".</li>
                     <li>
@@ -85,6 +79,11 @@
                     </li>
                     <li>Partecipazione e contributo ai meeting di Project Management.</li>
                 </UnorderedList>
+
+                <div>
+                    <h4>Aprile 2023 - Settembre 2023, Gruppo Buffetti S.p.A. - Roma</h4>
+                    <h5><strong>Sviluppatore Web Junior - Stage</strong></h5>
+                </div>
             </div>
         </ColumnSection>
 
